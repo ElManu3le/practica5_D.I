@@ -16,8 +16,8 @@ public class TercerControlador {
     private Button reset;
 
     @FXML
-    private void switchToPrimary() throws IOException {
-        App.setRoot("login");
+    private void switchTotercero() throws IOException {
+        App.setRoot("tercer");
     }
 
 }

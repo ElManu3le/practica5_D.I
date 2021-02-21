@@ -10,7 +10,7 @@ public class LoginUser {
     private Button entrarbutton;
 
     @FXML
-    private void switchTotercero() throws IOException {
-        App.setRoot("main");
+    private void switchToSecondary() throws IOException {
+        App.setRoot("login");
     }
 }
