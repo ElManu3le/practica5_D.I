@@ -33,7 +33,6 @@
 -->
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
@@ -44,7 +43,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="578.0" prefWidth="805.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Practica5_DI.TercerControlador">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -87,23 +86,12 @@
     </MenuBar>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <children>
-            <Button fx:id="exit" layoutX="428.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchTotercero" text="X" />
-            <TextField fx:id="CampoCodigoCliente" layoutX="166.0" layoutY="47.0" />
-            <TextField fx:id="CampoNombreCliente" layoutX="166.0" layoutY="84.0" />
-            <Label layoutX="26.0" layoutY="51.0" prefHeight="17.0" prefWidth="113.0" text="Codigo Cliente" />
-            <Label layoutX="26.0" layoutY="88.0" prefHeight="17.0" prefWidth="105.0" text="Nombre Cliente" />
-            <Label layoutX="26.0" layoutY="130.0" prefHeight="17.0" prefWidth="289.0" text="Tipo de Documentacion de Identidad" />
-            <Label layoutX="23.0" layoutY="198.0" text="Sexo: " />
-            <Label layoutX="26.0" layoutY="260.0" text="Correo Electronico" />
-            <Label layoutX="26.0" layoutY="302.0" text="Contraseña" />
-            <CheckBox layoutX="39.0" layoutY="163.0" mnemonicParsing="false" text="DNI" />
-            <CheckBox layoutX="134.0" layoutY="163.0" mnemonicParsing="false" text="NIE" />
-            <CheckBox layoutX="39.0" layoutY="225.0" mnemonicParsing="false" text="Hombre" />
-            <CheckBox layoutX="134.0" layoutY="225.0" mnemonicParsing="false" text="Mujer" />
-            <TextField layoutX="166.0" layoutY="256.0" />
-            <Button fx:id="accept" layoutX="105.0" layoutY="374.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="130.0" text="Aceptar" />
-            <Button fx:id="reset" layoutX="315.0" layoutY="374.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="130.0" text="Borrar" />
-            <PasswordField layoutX="166.0" layoutY="298.0" />
+            <Button layoutX="312.0" layoutY="118.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="58.0" text="Ver" />
+            <Label layoutX="50.0" layoutY="62.0" prefHeight="25.0" prefWidth="79.0" text="Usuario" />
+            <Label layoutX="50.0" layoutY="130.0" prefHeight="17.0" prefWidth="79.0" text="Contraseña" />
+            <TextField layoutX="163.0" layoutY="62.0" />
+            <PasswordField layoutX="163.0" layoutY="118.0" />
+            <Button layoutX="90.0" layoutY="188.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Entrar" />
       </children>
     </AnchorPane>
   </children>

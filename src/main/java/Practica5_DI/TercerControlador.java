@@ -7,7 +7,12 @@ import javafx.scene.control.Button;
 public class TercerControlador {
     
     @FXML
-    private Button boton1;
+    private Button exit;
+    @FXML
+    private Button accept; 
+
+    @FXML
+    private Button reset;
     @FXML
     private void switchTotercero() throws IOException {
         App.setRoot("tercer");
