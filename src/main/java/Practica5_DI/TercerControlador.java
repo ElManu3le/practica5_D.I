@@ -17,7 +17,7 @@ public class TercerControlador {
 
     @FXML
     private void switchTotercero() throws IOException {
-        App.setRoot("tercer");
+        App.setRoot("Login");
     }
 
 }

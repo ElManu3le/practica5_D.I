@@ -11,6 +11,6 @@ public class LoginUser {
 
     @FXML
     private void switchToSecondary() throws IOException {
-        App.setRoot("login");
+        App.setRoot("Login");
     }
 }
